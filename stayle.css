@@ -1,0 +1,212 @@
+p {
+    font-family: "Roboto";
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.head{
+    font-size: 17px;
+    font-weight: 450;
+    font-family: "roboto";
+    margin-left: 22px;
+    color: rgb(153, 152, 152);
+    margin-bottom: 0%;
+    margin-top: 10px;
+}
+body {
+    margin: 0%;
+    padding-top: 80px;
+    padding-left: 240px;
+}
+.header {
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(250, 250, 250);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(240,240,240);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+right: 0px;
+}
+.thamb {
+    width: 100%;
+
+}
+.profile-pic {
+    width: 80%;
+    border-radius: 50px;
+}
+.video-titel {
+    margin: 0%;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.info-all {
+    display: grid;
+    grid-template-columns: 50px 1fr
+}
+.view,
+.chanel-name {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(96, 96, 96);
+}
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 16px;
+    row-gap: 30px;
+}
+.first-header {
+    display: flex;
+    align-items: center;
+}
+.midel-header {
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 600px;
+    align-items: center;
+}
+.laste-header {
+    width:200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.you-icon {
+    height: 20px;
+
+}
+.bar-icon {
+    height: 28px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sbi {
+    height: 20px;
+    margin-top: 3px;
+    
+}
+.sb{
+    height: 40px;
+    width: 70px;
+    margin-right: 15px;
+    background-color:rgb(235, 235, 235) ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(211, 211, 211) ;
+    margin-left: -1px;
+    border-end-end-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.vbi {
+    height: 18px;
+}
+.vb{
+    height:40px;
+    width: 40px;
+    border-radius: 30px;
+    border-width: 0px;
+    border-color: rgb(211, 211, 211) ;
+}
+.search-bar {
+    height: 36px;
+    flex: 1;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(211, 211, 211);
+    box-shadow: inset 1px 2px 2px rgb(0, 0, 0,0.2);
+    border-radius: 2px;
+    display: flex;
+}
+.search-bar::placeholder{
+    font-family: "roboto" ;
+    font-size: 17px;
+
+}
+.up{
+    height: 25px ;
+    margin-left:30px;
+}
+.noti{
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.me{
+    height: 35px;
+    margin-right: 25px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.app{
+    height: 25px;
+    margin-right: 25px;
+    border-radius: 50px;
+}
+.side-bar{
+    position: fixed;
+    top:56px ;
+    bottom: 0px;
+left: 0px;
+background-color: white;
+width: 220px;
+}
+.bar-pic{
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    display: flex;
+}
+hr{
+    color: rgb(163, 161, 161);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.sidebar{
+    height: 100;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;   
+}
+.sidebar:hover{
+    background-color: rgb(214, 213, 213);
+}
+.sidebartext{
+    font-size: 15px;
+    font-family: "roboto";
+    font-weight: 450;
+margin-left: 20px;
+}
+.sidebartexts{
+        font-size: 15px;
+        font-family: "roboto";
+        font-weight: 450;
+    margin-left: 20px;   
+}
+.sidebartext1{
+    font-size: 15px;
+    font-family: "roboto";
+    font-weight: 600;
+    color: rgb(172, 172, 172);
+margin-left: 10px;
+}
+.s-pic{
+    height: 35px;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
